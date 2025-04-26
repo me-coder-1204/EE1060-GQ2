@@ -1,0 +1,5 @@
+\contentsline {section}{\numberline {1}\textbf {What is convolution ?}}{3}{}%
+\contentsline {section}{\numberline {2}Convolution of sinc function}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Considering the kernel for $t>0$}{7}{}%
+\contentsline {subsection}{\numberline {2.2}Shifting the kernel by $t_{0}$}{8}{}%
+\contentsline {section}{\numberline {3}Significance of time-shift}{10}{}%
