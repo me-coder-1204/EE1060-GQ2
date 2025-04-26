@@ -20,7 +20,7 @@
 % Add logo to the title
 \pretitle{%
     \begin{center}
-    \includegraphics[width=0.5\textwidth]{IITH.png} \\ % Replace with your logo file
+    \includegraphics[width=0.5\textwidth]{figs/IITH.png} \\ % Replace with your logo file
     \vspace{1cm} % Adjust spacing as needed
     \LARGE
 }
@@ -111,7 +111,7 @@ Therefore, the convolution becomes,
 This integration can be numerically computed and can be seen to be the following - \\
 \begin{figure}[!ht]
     \centering
-    \includegraphics[width=0.6\textwidth]{Conv_sinc.png}
+    \includegraphics[width=0.6\textwidth]{figs/Conv_sinc.png}
     \caption{T = 25}
     \label{fig:conv_sinc}
 \end{figure}
@@ -119,31 +119,31 @@ This integration can be numerically computed and can be seen to be the following
 For different values of T, the change in $y(t)$ is depicted in the following - \\
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con1.png}
+    \includegraphics[width=0.6\textwidth]{figs/con1.png}
     \caption{T = 17}
     \label{fig:conv_sinc}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con2.png}
+    \includegraphics[width=0.6\textwidth]{figs/con2.png}
     \caption{T = 2}
     \label{fig:conv_sinc}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con3.png}
+    \includegraphics[width=0.6\textwidth]{figs/con3.png}
     \caption{T = 10}
     \label{fig:conv_sinc}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con4.png}
+    \includegraphics[width=0.6\textwidth]{figs/con4.png}
     \caption{T = 100}
     \label{fig:conv_sinc}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con5.png}
+    \includegraphics[width=0.6\textwidth]{figs/con5.png}
     \caption{T = 500}
     \label{fig:conv_sinc}
 \end{figure}
@@ -155,25 +155,25 @@ It can be seen that as $T$ increases, $y(t)$ becomes more square.
 The response of the system for different values of $T$ are as follows - \\
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{conv_sinc.png}
+    \includegraphics[width=0.6\textwidth]{figs/conv_sinc.png}
     \caption{T = 25}
     \label{fig:conv_sinc}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con6.png}
+    \includegraphics[width=0.6\textwidth]{figs/con6.png}
     \caption{T = 10}
     \label{fig:conv_sinc}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con7.png}
+    \includegraphics[width=0.6\textwidth]{figs/con7.png}
     \caption{T = 50}
     \label{fig:conv_sinc}
 \end{figure}
 \begin{figure}[h]
     \centering
-    \includegraphics[width=0.6\textwidth]{con8.png}
+    \includegraphics[width=0.6\textwidth]{figs/con8.png}
     \caption{T = 500}
     \label{fig:conv_sinc}
 \end{figure}
@@ -199,17 +199,17 @@ h(t) =
 If we are convolving a signal with the kernel, at each time $t$, we are sliding the kernel over the signal and computing how much they overlap. So, when we shift the kernel by $t_0$, we are changing when the kernel has its maximum influence.
 This can physically mean applying a response $t_0$ time units early (or) $t_0$ time units late depending upon the sign of $t_0$, i.e., if $t_0 > 0$, the response is delayed and is advanced for $t_0 < 0$. This results in the convoluted signal also to be shifted by the same amount, as in figures \ref{fig:rshift} and \ref{fig:lshift} - 
 \begin{figure*}[!htb]
-    {\includegraphics[ width=0.40\textwidth]{Conv_sinc.png}}
+    {\includegraphics[ width=0.40\textwidth]{figs/Conv_sinc.png}}
     \hspace{\fill}
-    {\includegraphics[ width=0.40\textwidth]{conv_shift.png}}
+    {\includegraphics[ width=0.40\textwidth]{figs/conv_shift.png}}
     \hspace{\fill}\\
     \caption{Shifting toward right}
     \label{fig:rshift}
 \end{figure*}
 \begin{figure*}[!htb]
-    {\includegraphics[ width=0.40\textwidth]{Conv_sinc.png}}
+    {\includegraphics[ width=0.40\textwidth]{figs/Conv_sinc.png}}
     \hspace{\fill}
-    {\includegraphics[ width=0.40\textwidth]{conv_left.png}}
+    {\includegraphics[ width=0.40\textwidth]{figs/conv_left.png}}
     \hspace{\fill}\\
     \caption{Shifting toward left}
     \label{fig:lshift}

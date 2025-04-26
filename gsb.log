@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.3)  26 APR 2025 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.1.3)  26 APR 2025 10:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -733,21 +733,11 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-
-LaTeX Warning: File `IITH.png' not found on input line 31.
-
-
-! Package pdftex.def Error: File `IITH.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.31 \maketitle
-               
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
+<figs/IITH.png, id=4, 225.84375pt x 225.84375pt>
+File: figs/IITH.png Graphic file (type png)
+<use figs/IITH.png>
+Package pdftex.def Info: figs/IITH.png  used on input line 31.
+(pdftex.def)             Requested size: 226.48395pt x 226.49794pt.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 31.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -760,7 +750,8 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 31.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./gsb.toc)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figs/IITH.png>] (./gsb.t
+oc)
 \tf@toc=\write4
 \openout4 = `gsb.toc'.
 
@@ -775,67 +766,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--48
  []
 
 [3]
-<Conv_sinc.png, id=26, 462.528pt x 346.896pt>
-File: Conv_sinc.png Graphic file (type png)
-<use Conv_sinc.png>
-Package pdftex.def Info: Conv_sinc.png  used on input line 114.
+<figs/Conv_sinc.png, id=27, 462.528pt x 346.896pt>
+File: figs/Conv_sinc.png Graphic file (type png)
+<use figs/Conv_sinc.png>
+Package pdftex.def Info: figs/Conv_sinc.png  used on input line 114.
 (pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
- [4 <./Conv_sinc.png>]
-<con1.png, id=34, 1004.75375pt x 602.25pt>
-File: con1.png Graphic file (type png)
-<use con1.png>
-Package pdftex.def Info: con1.png  used on input line 122.
+ [4 <./figs/Conv_sinc.png>]
+<figs/con1.png, id=35, 1004.75375pt x 602.25pt>
+File: figs/con1.png Graphic file (type png)
+<use figs/con1.png>
+Package pdftex.def Info: figs/con1.png  used on input line 122.
 (pdftex.def)             Requested size: 271.7835pt x 162.90373pt.
-<con2.png, id=35, 1004.75375pt x 602.25pt>
-File: con2.png Graphic file (type png)
-<use con2.png>
-Package pdftex.def Info: con2.png  used on input line 128.
+<figs/con2.png, id=36, 1004.75375pt x 602.25pt>
+File: figs/con2.png Graphic file (type png)
+<use figs/con2.png>
+Package pdftex.def Info: figs/con2.png  used on input line 128.
 (pdftex.def)             Requested size: 271.7835pt x 162.90373pt.
-<con3.png, id=36, 1004.75375pt x 602.25pt>
-File: con3.png Graphic file (type png)
-<use con3.png>
-Package pdftex.def Info: con3.png  used on input line 134.
+<figs/con3.png, id=37, 1004.75375pt x 602.25pt>
+File: figs/con3.png Graphic file (type png)
+<use figs/con3.png>
+Package pdftex.def Info: figs/con3.png  used on input line 134.
 (pdftex.def)             Requested size: 271.7835pt x 162.90373pt.
-<con4.png, id=37, 462.528pt x 346.896pt>
-File: con4.png Graphic file (type png)
-<use con4.png>
-Package pdftex.def Info: con4.png  used on input line 140.
+<figs/con4.png, id=38, 462.528pt x 346.896pt>
+File: figs/con4.png Graphic file (type png)
+<use figs/con4.png>
+Package pdftex.def Info: figs/con4.png  used on input line 140.
 (pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
-<con5.png, id=38, 462.528pt x 346.896pt>
-File: con5.png Graphic file (type png)
-<use con5.png>
-Package pdftex.def Info: con5.png  used on input line 146.
-(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[5 <./con1.png> <./con2.png>] [6 <./con3.png> <./con4.png>]
-<conv_sinc.png, id=51, 462.528pt x 346.896pt>
-File: conv_sinc.png Graphic file (type png)
-<use conv_sinc.png>
-Package pdftex.def Info: conv_sinc.png  used on input line 158.
-(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
-<con6.png, id=52, 462.528pt x 346.896pt>
-File: con6.png Graphic file (type png)
-<use con6.png>
-Package pdftex.def Info: con6.png  used on input line 164.
-(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
-<con7.png, id=53, 462.528pt x 346.896pt>
-File: con7.png Graphic file (type png)
-<use con7.png>
-Package pdftex.def Info: con7.png  used on input line 170.
-(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
-<con8.png, id=54, 462.528pt x 346.896pt>
-File: con8.png Graphic file (type png)
-<use con8.png>
-Package pdftex.def Info: con8.png  used on input line 176.
+<figs/con5.png, id=39, 462.528pt x 346.896pt>
+File: figs/con5.png Graphic file (type png)
+<use figs/con5.png>
+Package pdftex.def Info: figs/con5.png  used on input line 146.
 (pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
 
 
@@ -847,37 +807,67 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7 <./con5.png> <./conv_sinc.png>]
-File: Conv_sinc.png Graphic file (type png)
-<use Conv_sinc.png>
-Package pdftex.def Info: Conv_sinc.png  used on input line 202.
+[5 <./figs/con1.png> <./figs/con2.png>] [6 <./figs/con3.png> <./figs/con4.png>]
+<figs/conv_sinc.png, id=52, 462.528pt x 346.896pt>
+File: figs/conv_sinc.png Graphic file (type png)
+<use figs/conv_sinc.png>
+Package pdftex.def Info: figs/conv_sinc.png  used on input line 158.
+(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
+<figs/con6.png, id=53, 462.528pt x 346.896pt>
+File: figs/con6.png Graphic file (type png)
+<use figs/con6.png>
+Package pdftex.def Info: figs/con6.png  used on input line 164.
+(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
+<figs/con7.png, id=54, 462.528pt x 346.896pt>
+File: figs/con7.png Graphic file (type png)
+<use figs/con7.png>
+Package pdftex.def Info: figs/con7.png  used on input line 170.
+(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
+<figs/con8.png, id=55, 462.528pt x 346.896pt>
+File: figs/con8.png Graphic file (type png)
+<use figs/con8.png>
+Package pdftex.def Info: figs/con8.png  used on input line 176.
+(pdftex.def)             Requested size: 271.7835pt x 203.8464pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./figs/con5.png> <./figs/conv_sinc.png>]
+File: figs/Conv_sinc.png Graphic file (type png)
+<use figs/Conv_sinc.png>
+Package pdftex.def Info: figs/Conv_sinc.png  used on input line 202.
 (pdftex.def)             Requested size: 181.18439pt x 135.88702pt.
-<conv_shift.png, id=62, 462.528pt x 346.896pt>
-File: conv_shift.png Graphic file (type png)
-<use conv_shift.png>
-Package pdftex.def Info: conv_shift.png  used on input line 204.
+<figs/conv_shift.png, id=63, 462.528pt x 346.896pt>
+File: figs/conv_shift.png Graphic file (type png)
+<use figs/conv_shift.png>
+Package pdftex.def Info: figs/conv_shift.png  used on input line 204.
 (pdftex.def)             Requested size: 181.18439pt x 135.88702pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 202--206
 
  []
 
-File: Conv_sinc.png Graphic file (type png)
-<use Conv_sinc.png>
-Package pdftex.def Info: Conv_sinc.png  used on input line 210.
+File: figs/Conv_sinc.png Graphic file (type png)
+<use figs/Conv_sinc.png>
+Package pdftex.def Info: figs/Conv_sinc.png  used on input line 210.
 (pdftex.def)             Requested size: 181.18439pt x 135.88702pt.
-<conv_left.png, id=63, 462.528pt x 346.896pt>
-File: conv_left.png Graphic file (type png)
-<use conv_left.png>
-Package pdftex.def Info: conv_left.png  used on input line 212.
+<figs/conv_left.png, id=64, 462.528pt x 346.896pt>
+File: figs/conv_left.png Graphic file (type png)
+<use figs/conv_left.png>
+Package pdftex.def Info: figs/conv_left.png  used on input line 212.
 (pdftex.def)             Requested size: 181.18439pt x 135.88702pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 210--214
 
  []
 
-[8 <./con6.png> <./con7.png>] [9 <./con8.png> <./conv_shift.png> <./conv_left.p
-ng>] [10] (./gsb.aux)
+[8 <./figs/con6.png> <./figs/con7.png>] [9 <./figs/con8.png> <./figs/conv_shift
+.png> <./figs/conv_left.png>] [10] (./gsb.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -888,13 +878,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 32930 strings out of 474222
- 828637 string characters out of 5748734
+ 32904 strings out of 474222
+ 828622 string characters out of 5748734
  1936975 words of memory out of 5000000
- 54820 multiletter control sequences out of 15000+600000
- 567308 words of font info for 72 fonts, out of 8000000 for 9000
+ 54795 multiletter control sequences out of 15000+600000
+ 567139 words of font info for 71 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,9n,101p,495b,274s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,9n,101p,495b,248s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texl
@@ -903,12 +893,11 @@ mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
 blic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmtt12.pfb>
-Output written on gsb.pdf (10 pages, 458695 bytes).
+msfonts/cm/cmsy8.pfb>
+Output written on gsb.pdf (10 pages, 459507 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 68 compressed objects within 1 object stream
+ 122 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 78 words of extra memory for PDF output out of 10000 (max. 10000000)
 
