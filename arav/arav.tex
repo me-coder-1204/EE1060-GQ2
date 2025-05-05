@@ -1,69 +1,5 @@
-\documentclass[12pt]{article}
-\usepackage{graphicx}
-\usepackage{geometry}
-\usepackage{fancyhdr}
-\usepackage{titling} 
-\usepackage{amsmath}  
-\usepackage{amssymb}  
-\usepackage{enumitem} 
-\usepackage{xcolor}   
-\usepackage{circuitikz}
-\usepackage{animate}
-\usepackage{algorithm}
-\usepackage{algpseudocode}
-% Set margins
-\geometry{a4paper, margin=1in}
-
-% Title, name, and date
-\title{\textbf{EE1060 - DETT GROUP QUIZ 2}}
-\author{EE24BTECH11012 - Bhavanisankar G S}
-\date{\today}
-
-% Add logo to the title
-\begin{document}
-
-% First page with title, name, date, and logo
-\maketitle
-\thispagestyle{empty} % Remove page number from the first page
-
-\newpage
-\tableofcontents
-\newpage
-
-\section{\textbf{What is convolution ?}}
-
-Convolution is a mathematical operation on two functions, $f$ and $g$, as the integral of the product of the two functions after one is reflected about the y-axis and shifted, i.e., If we are convolving a signal with a kernel, at each time $t$, we are sliding the kernel over the signal and computing how much they overlap. This is useful in various fields of study like finding the system response given the impulse response, signal processing and in probability.\\
-Given two functions $f(x)$ and $g(x)$, convolution of the two signals, \\
-\begin{align}
-	x(t) &= f(t) * g(t) \\
-	     &= \int_{-\infty}^{\infty} f(\tau) g(t - \tau) d \tau \label{eq:conv}
-\end{align}
-Some properties of convolution : \\
-\begin{enumerate}
-\item \textbf{Commutativity} : 
-\begin{align*}
-f(t) * g(t) &= g(t) * f(t)
-\end{align*}
-\item \textbf{Distributivity} :
-\begin{align*}
-f(t) * [g(t) + h(t)] &= [f(t) * g(t)] + [f(t) * h(t)] 
-\end{align*}
-\item \textbf{Associativity} :
-\begin{align*}
-f(t) * [g(t) * h(t)] &= [f(t) * g(t)] * h(t)
-\end{align*}
-\item \textbf{Time shifting property} :
-If we are given $y(t) = x_1 (t) * x_2 (t)$, then
-\begin{align*}
-	x_1(t) * x_2(t - T) &= y(t - T) \\
-ex_1(t - T) * x_2(t) &= y(t - T) \\
-	x_1(t - T_1) * x_2(t - T_2) &= y(t - T_1 - T_2)
-\end{align*}
-\item \textbf{Width property} :
-If the duration of signals $f(t)$ and $g(t)$ are $T_1$ and $T_2$ respectively, then the duration of signal convolving $f(t)$ and $g(t)$ is equal to $T_1 + T_2$
-\end{enumerate}
-
-\section{Discrete convolution}
+\section{Numerical way to perform convolution}
+\subsection{Discrete convolution}
 
 Usually when dealing with real life signals, we don't have the complete function in but rather, discreet samples of the function. So it is also useful to look at the discrete convolution, which is given by,
 
@@ -73,7 +9,7 @@ Usually when dealing with real life signals, we don't have the complete function
 
 Discrete colvolution follow all properties continuous convolution follows. we use this to numeically compute convolution of two signals.
 
-\section{Convolution Theorem}
+\subsection{Convolution Theorem}
 
 The convolution theorem states that,
 
@@ -89,7 +25,7 @@ Then,
 
 This provides a much faster way to compute convolution of the signals.
 
-\section{Fast Fourier Transform (FFT) and it's inverse (IFFT)}
+\subsection{Fast Fourier Transform (FFT) and it's inverse (IFFT)}
 
 FFT is the algorithm used to find the fourier transform of a given signal. It is a recursive algorithm with a time complexity of $\mathcal{O}(n\log(n))$. To explain the algorithm and explain how convolution theorem works, we can explain it using product of two polynomials.
 
@@ -301,7 +237,7 @@ Discreen Convolution (FFT):  0.03110957145690918\\
 }
 
 Scipy's implementation is the fastest, as it is a professional tool with a lots of optimizations made. But as we can see, for the $n=1024$, FFT algorithm made convolution almost 10 times faster than regular convolution. Approximately, the time complexity of regular convolution is $\mathcal{O}(n^2)$ and FFT is $\mathcal{O}(n\log n)$, which  approximately matches.
-\end{document}
+
 
 
 	     
