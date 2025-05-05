@@ -1,0 +1,44 @@
+\contentsline {section}{\numberline {1}\textbf {Question}}{4}{section.1}%
+\contentsline {section}{\numberline {2}\textbf {What is convolution ?}}{4}{section.2}%
+\contentsline {section}{\numberline {3}Significance of time-shift}{6}{section.3}%
+\contentsline {section}{\numberline {4}Convolution of step function}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Analytical Convolution}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Scenario Analysis}{7}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Causal Kernel}{7}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Shifted Kernel}{7}{subsubsection.4.2.2}%
+\contentsline {section}{\numberline {5}Convolution of sinusoidal function}{9}{section.5}%
+\contentsline {paragraph}{Sine part}{11}{section*.2}%
+\contentsline {subsection}{\numberline {5.1}Convolution of a Signal with a Rectangular Kernel}{12}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}General Convolution Expression}{12}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Analysis for Various $T$ and $f(t)$}{12}{subsection.5.3}%
+\contentsline {subsubsection}{\numberline {5.3.1}Modified Kernel ($t > 0$)}{12}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.2}Shifted Kernel by $\tau _0$}{13}{subsubsection.5.3.2}%
+\contentsline {section}{\numberline {6}Convolution of linear function}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Considering the kernel for $t>0$}{19}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Shifting the kernel by $t_{0}$}{20}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Convolution of Exponential Functions}{22}{section.7}%
+\contentsline {section}{\numberline {8}Convolution with Hyperbolic Function}{22}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Modified Kernel Analysis}{24}{subsection.8.1}%
+\contentsline {subsubsection}{\numberline {8.1.1}Kernel for $t > 0$ (Part a)}{24}{subsubsection.8.1.1}%
+\contentsline {subsubsection}{\numberline {8.1.2}Case 1: $t < 0$}{24}{subsubsection.8.1.2}%
+\contentsline {subsubsection}{\numberline {8.1.3}Case 2: $0 \leq t < T$}{24}{subsubsection.8.1.3}%
+\contentsline {subsubsection}{\numberline {8.1.4}Case 3: $t \geq T$}{24}{subsubsection.8.1.4}%
+\contentsline {subsection}{\numberline {8.2}Hyperbolic Function with Modified Kernel}{25}{subsection.8.2}%
+\contentsline {subsubsection}{\numberline {8.2.1}Case 1: $t < 0$}{25}{subsubsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.2}Case 2: $0 \leq t < T$}{25}{subsubsection.8.2.2}%
+\contentsline {subsubsection}{\numberline {8.2.3}Case 3: $t \geq T$}{25}{subsubsection.8.2.3}%
+\contentsline {subsection}{\numberline {8.3}Time-Shifted Kernel (Part b)}{26}{subsection.8.3}%
+\contentsline {subsubsection}{\numberline {8.3.1}Exponential Function with Time-Shifted Kernel}{27}{subsubsection.8.3.1}%
+\contentsline {subsubsection}{\numberline {8.3.2}Hyperbolic Function with Time-Shifted Kernel}{27}{subsubsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.4}Comparison of Exponential and Hyperbolic Functions with Time-Shifted Kernels}{28}{subsection.8.4}%
+\contentsline {section}{\numberline {9}Convolution of sinc function}{29}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Considering the kernel for $t>0$}{32}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Shifting the kernel by $t_{0}$}{33}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Numerical way to perform convolution}{36}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Discrete convolution}{36}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Convolution Theorem}{36}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Fast Fourier Transform (FFT) and it's inverse (IFFT)}{36}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Applications of convolution - Filters ( Image processing )}{41}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Gaussian filter}{41}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}Laplacian filter}{42}{subsection.11.2}%
+\contentsline {section}{\numberline {12}\textbf {References}}{44}{section.12}%

@@ -1,0 +1,84 @@
+\section*{2. Problem Definition}
+The kernel is defined as:
+\[
+h(t) =
+\begin{cases}
+1, & -T \le t \le T \\
+0, & \text{otherwise}
+\end{cases}
+\]
+
+We are required to compute the convolution:
+\[
+y(t) = (f * h)(t) = \int_{-\infty}^{\infty} f(\tau) h(t - \tau) \, d\tau
+\]
+with \( f(t) = u(t) \), the unit step function.
+
+\section*{3. Analytical Convolution}
+
+Since \( u(\tau) = 0 \) for \( \tau < 0 \), the integral becomes:
+\[
+y(t) = \int_0^{\infty} h(t - \tau) \, d\tau
+\]
+
+We determine the overlap of \( h(t - \tau) \) within its support \( [-T, T] \), resulting in:
+\[
+t - T \le \tau \le t + T
+\]
+
+Intersecting this with \( \tau \ge 0 \), the integration limits become:
+\[
+\max(0, t - T) \le \tau \le t + T
+\]
+
+Thus:
+\[
+y(t) = \int_{\max(0, t - T)}^{t + T} 1 \, d\tau = t + T - \max(0, t - T)
+\]
+
+Breaking into cases:
+\[
+y(t) =
+\begin{cases}
+0, & t < -T \\
+t + T, & -T \le t < T \\
+2T, & t \ge T
+\end{cases}
+\]
+
+\section*{4. Scenario Analysis}
+
+\subsection*{(a) Causal Kernel}
+Modified kernel:
+\[
+h(t) =
+\begin{cases}
+1, & 0 \le t \le T \\
+0, & \text{otherwise}
+\end{cases}
+\]
+
+Now:
+\[
+y(t) = \int_0^\infty h(t - \tau) \, d\tau
+= \int_{\max(0, t - T)}^{t} 1 \, d\tau = \min(t, T)
+\]
+
+Thus:
+\[
+y(t) =
+\begin{cases}
+0, & t < 0 \\
+t, & 0 \le t < T \\
+T, & t \ge T
+\end{cases}
+\]
+
+\subsection*{(b) Shifted Kernel}
+Let \( h(t) \rightarrow h(t - \tau_0) \). Then:
+\[
+y(t) = \int_0^\infty u(\tau) h(t - \tau - \tau_0) \, d\tau = y_{\text{original}}(t - \tau_0)
+\]
+
+The output is simply delayed by \( \tau_0 \).
+\end{document}

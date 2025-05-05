@@ -1,40 +1,4 @@
-\documentclass{article}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{graphicx}
-\usepackage{hyperref}
-\usepackage{mathtools}
-\usepackage{enumerate}
-\usepackage{geometry}
-\geometry{margin=1in}
-
-\title{Convolution of Exponential and Hyperbolic Functions}
-\author{Eshan Sharma}
-\date{\today}
-
-\begin{document}
-	
-	\maketitle
-	
-	\section{Introduction}
-	This report provides a numerical and computational analysis on the convolution of exponential and hyperbolic functions.
-	
-	\section{Theoretical Background}
-	The convolution of two functions $f(t)$ and $h(t)$ is defined as:
-	\begin{equation}
-		y(t) = (f * h)(t) = \int_{-\infty}^{\infty} f(\tau) h(t - \tau) d\tau
-	\end{equation}
-	
-	For our analysis, the rectangular kernel is defined as:
-	\begin{equation}
-		h(t) = 
-		\begin{cases} 
-			1, & \text{for } -T \leq t \leq T \\
-			0, & \text{otherwise}
-		\end{cases}
-	\end{equation}
-	
-	\section{Convolution with Exponential Function}
+\section{Convolution of Exponential Functions}
 	Let's choose $f(t) = e^{-at}$ for $a > 0$ as our input signal.
 	
 	The convolution is:
@@ -94,8 +58,8 @@
 		\label{fig:hyper_convolution}
 	\end{figure}
 	
-	\section{Modified Kernel Analysis}
-	\subsection{Kernel for $t > 0$ (Part a)}
+	\subsection{Modified Kernel Analysis}
+	\subsubsection{Kernel for $t > 0$ (Part a)}
 	For part (a), we need to modify the kernel to only consider the part for $t > 0$:
 	\begin{equation}
 		h_m(t) = 
@@ -263,5 +227,3 @@
 		\item For the hyperbolic function $f(t) = \sinh(bt)$, a time-shift in the kernel results only in a time-shift in the output and not in amplitude scaling. The curves do not change their shape and are merely shifted horizontally.
 	\end{itemize}
 
-
-\end{document}
